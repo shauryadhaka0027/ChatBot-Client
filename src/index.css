@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+.gradient-01{
+  position: absolute;
+  width: 200px;
+  height: 238px;
+  top: 0;
+  background: #ca00ff;
+  filter: blur(175px);
+}
+
+.gradient-02{
+  position: absolute;
+  width: 200px;
+  height: 238px;
+  top: -6rem;
+  right: 0px;
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark Mode Styled Scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  
+  
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(43, 43, 43);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+
+
+
